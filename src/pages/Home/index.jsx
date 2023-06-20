@@ -1,7 +1,11 @@
-import Header from '../../components/Header'
+import MainHeader from '../../components/MainHeader'
 import './home.css'
 
 const Home = () => {
-	return <Header />
+	return (
+		<>
+			<MainHeader />
+		</>
+	)
 }
 export default Home
